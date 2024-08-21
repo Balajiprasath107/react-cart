@@ -6,7 +6,7 @@ function CartItems({item,count,cartcount,setcartCount,arryitem,setarrayitem,allt
 
     
     function dec(){
-       if(cartc>0){
+       if(cartc-1 > 0){
         
         setcartc(cartc-1)
         item.count ++
